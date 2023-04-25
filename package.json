@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "app_con_nodejs_express",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "SamuelBSalgado",
+  "license": "ISC",
+  "description": "This is a basic web server using Node.js and Express. The web server listens on port 3000 and has a path to add a product to inventory. The inventory is stored in an array in the 'Inventory' class. The code also includes a function to check if the inventory is empty or not. In addition to that you can list and search the products."
+}
